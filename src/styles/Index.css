@@ -1,0 +1,13 @@
+/* styles/Index.css */
+h2 {
+    color: #333;
+  }
+  
+  /* Add additional styling */
+  #port-pic {
+    width: 500px;
+  }
+
+  #index {
+    background-color: whitesmoke;
+  }
