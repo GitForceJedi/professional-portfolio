@@ -1,7 +1,35 @@
 /* styles/Skills.css */
-h2 {
-    color: #333;
-  }
-  
-  /* Add additional styling */
-  
+#skills {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+}
+
+.skill-item img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+}
+
+.selected-skill {
+  margin-top: 2rem;
+}
+
+.selected-skill img {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+}
