@@ -7,7 +7,6 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Type from "./Type";
 import TypeOnce from "./TypeOnce";
-import TypeBody from "./TypeBody";
 
 function Home() {
   return (
