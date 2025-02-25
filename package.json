@@ -3,20 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/icons-material": "^6.4.5",
+    "@react-pdf/renderer": "^4.2.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "dev-portfolio": "file:",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-parallax-tilt": "^1.7.284",
+    "react-pdf": "^9.2.1",
+    "react-router-dom": "^7.2.0",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.8.1",
+    "vanilla-tilt": "^1.8.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +43,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://GitForceJedi.github.io/professional-portfolio",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
